@@ -5,6 +5,7 @@ Release 6.0.2 (Not released yet)
  * Only try to read pid 1's /proc files as root, in container detection. Closes GH-2168.
  * Add support for identifying the Passenger instance by PID. Closes GH-2146. Contributed by Saverio Miroddi (@saveriomiroddi).
  * Updated Ruby versions used in precompiled binaries (used for e.g. gem installs) to include 2.6.1.
+ * Made Passenger more resiliant to Rack bugs. Closes GH-2150.
 
 
 Release 6.0.1
